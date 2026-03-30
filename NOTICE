@@ -1,0 +1,14 @@
+青松 (PineStyle) - AI 坐姿检测
+Copyright (C) 2026 fstu (https://github.com/fstyou)
+
+本项目整体采用 GNU General Public License v3.0 (GPL-3.0) 协议授权。
+
+本项目包含并修改了以下来自第三方开源项目的代码：
+1. PoseMon (让爷康康)
+   Copyright (c) Lin Yi
+   来源: https://github.com/linyiLYi/pose-monitor
+   许可: 基于 Apache License 2.0 授权
+2. TensorFlow Examples
+   Copyright 2021 The TensorFlow Authors. All Rights Reserved.
+   来源: https://github.com/tensorflow/examples
+   许可: 基于 Apache License 2.0 授权

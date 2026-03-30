@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources >
+    <!-- 应用名称 -->
+    <string name = "app_name" >青松</string >
+    
+    <!-- 权限相关 -->
+    <string name = "camera_permission_required" >需要摄像头权限来检测坐姿</string >
+    <string name = "camera_permission_denied" >摄像头权限被拒绝，应用无法正常工作</string >
+    
+    <!-- 主页 -->
+    <string name = "home_title" >坐姿检测</string >
+    <string name = "posture_good" >坐姿良好</string >
+    <string name = "posture_cross_leg" >跷二郎腿</string >
+    <string name = "posture_hunchback" >脖子前伸</string >
+    <string name = "posture_no_person" >未检测到人</string >
+    
+    <!-- 统计页面 -->
+    <string name = "stats_title" >坐姿统计</string >
+    <string name = "total_detection_time" >总检测时长</string >
+    <string name = "posture_score" >坐姿评分</string >
+    <string name = "posture_evaluation" >坐姿评价</string >
+    
+    <!-- 设置页面 -->
+    <string name = "settings_title" >设置</string >
+    <string name = "camera_settings" >摄像头设置</string >
+    <string name = "front_camera" >前置摄像头</string >
+    <string name = "back_camera" >后置摄像头</string >
+    <string name = "theme_settings" >主题设置</string >
+    <string name = "follow_system" >跟随系统</string >
+    <string name = "light_theme" >亮色模式</string >
+    <string name = "dark_theme" >暗色模式</string >
+    
+    <!-- 底部导航栏 -->
+    <string name = "nav_home" >主页</string >
+    <string name = "nav_stats" >统计</string >
+    <string name = "nav_settings" >设置</string >
+    
+    <!-- 评价提示 -->
+    <string name = "tip_excellent" >继续保持良好习惯！</string >
+    <string name = "tip_good" >再努力一点就能达到优秀！</string >
+    <string name = "tip_average" >注意坐姿，避免长时间不良姿势</string >
+    <string name = "tip_poor" >建议定时休息，调整坐姿</string >
+    <string name = "tip_default" >坚持检测，改善坐姿习惯</string >
+    
+    <!-- 评价等级 -->
+    <string name = "evaluation_excellent" >优秀</string >
+    <string name = "evaluation_good" >良好</string >
+    <string name = "evaluation_average" >一般</string >
+    <string name = "evaluation_poor" >较差</string >
+    
+    <!-- 主页相关 -->
+    <string name = "current_posture" >当前坐姿</string >
+    
+    <!-- 图标描述 -->
+    <string name = "icon_warning" >警告</string >
+    <string name = "icon_camera" >摄像头</string >
+    <string name = "icon_home" >主页</string >
+    <string name = "icon_stats" >统计</string >
+    <string name = "icon_settings" >设置</string >
+    
+    <!-- 时间格式 -->
+    <string name = "time_zero_seconds" >0秒</string >
+    <string name = "time_format_minutes_seconds"
+            formatted = "false" >%d分钟%d秒
+    </string >
+    <string name = "time_format_seconds_only"
+            formatted = "false" >%d秒
+    </string >
+    
+    <!-- 评分格式 -->
+    <string name = "score_zero" >0.0分</string >
+    <string name = "score_format_decimal"
+            formatted = "false" >%.1f分
+    </string >
+    
+    <!-- 默认文本 -->
+    <string name = "no_data" >暂无数据</string >
+    
+    <!-- 设置相关 -->
+    <string name = "reset_defaults" >重置为默认设置</string >
+    <string name = "icon_reset" >重置</string >
+    
+    <!-- 运算设备设置 -->
+    <string name = "device_settings" >运算设备</string >
+    <string name = "device_cpu" >CPU</string >
+    <string name = "device_gpu" >GPU</string >
+    <string name = "device_nnapi" >NNAPI (AI加速器)</string >
+    <string name = "device_description_cpu" >使用CPU进行计算，兼容性最好</string >
+    <string name = "device_description_gpu" >使用GPU进行计算，速度较快</string >
+    <string name = "device_description_nnapi" >使用NNAPI进行计算，速度最快且最省电</string >
+    
+    <!-- 更多图标描述 -->
+    <string name = "icon_camera_settings" >摄像头设置</string >
+    <string name = "icon_theme_settings" >主题设置</string >
+    <string name = "icon_device_settings" >运算设备设置</string >
+    
+    <!-- 权限请求 -->
+    <string name = "request_camera_permission" >请求摄像头权限</string >
+    
+    <!-- 帮助页面 -->
+    <string name = "help_title" >帮助</string >
+    <string name = "nav_help" >帮助</string >
+    <string name = "license_info" >本 App 使用 GPL-3.0 协议。</string >
+    <string name = "ai_source_info" >App 中的 AI 部分修改自以下项目：</string >
+    <string name = "license_apache_info" >这两个项目均采用 Apache-2.0 协议。</string >
+    
+    <!-- 统计页面 -->
+    <string name = "stats_overview" >坐姿统计概览</string >
+    <string name = "good_posture_ratio" >良好坐姿比例</string >
+    <string name = "good_posture" >良好坐姿</string >
+    <string name = "cross_leg_posture" >跷二郎腿</string >
+    <string name = "hunchback_posture" >脖子前伸</string >
+    <string name = "no_person_time" >无人时长</string >
+    <string name = "total_session_time" >总会话时长</string >
+    <string name = "stats_note" >非实时检测结果</string >
+    <string name = "detailed_stats" >详细统计数据</string >
+    <string name = "detection_time_note" >总检测时长不包括未检测到人的时间</string >
+    <string name = "update_data" >更新数据</string >
+    
+    <!-- 权限相关 -->
+    <string name = "permission_request_hint" >请授予摄像头权限以使用坐姿检测功能</string >
+    <string name = "permission_fallback_hint" >如果点击按钮没有反应，请到系统设置中手动开启权限</string >
+    <string name = "permission_settings_path" >设置 → 应用 → 青松 → 权限 → 摄像头</string >
+    
+    <!-- 设备设置提示 -->
+    <string name = "device_fallback_hint" >如果运算设备不可用，将自动回退至 CPU 模式</string >
+    
+    <!-- 帮助页面相关字符串 -->
+    <string name = "help_features" >功能特点</string >
+    <string name = "icon_features" >功能</string >
+    <string name = "help_feature1_title" >1. 本地 AI 模型检测，无需联网</string >
+    <string name = "help_feature1_desc" >所有坐姿检测都在设备本地完成，不依赖网络连接，保护隐私。</string >
+    <string name = "help_feature2_title" >2. 只需要摄像头权限，隐私性强</string >
+    <string name = "help_feature2_desc" >App 仅需要摄像头权限，不收集个人数据，所有处理都在本地进行。</string >
+    <string name = "help_feature3_title" >3. 具有坐姿时长统计功能</string >
+    <string name = "help_feature3_desc" >自动记录不同坐姿的持续时间，帮助用户了解坐姿习惯。</string >
+    <string name = "help_logic1_title" >1. 摄像头画面获取</string >
+    <string name = "help_logic1_desc" >App 调用摄像头实时获取画面，所有处理都在设备本地完成。</string >
+    <string name = "help_logic2_title" >2. AI 模型检测</string >
+    <string name = "help_logic2_desc" >通过本地 AI 模型分析画面中的坐姿情况，无需联网。</string >
+    <string name = "help_logic3_title" >3. 警戒状态判断</string >
+    <string name = "help_logic3_desc" >AI 将连续 30 帧的画面判断为不健康坐姿时，App 会进入警戒状态。</string >
+    <string name = "help_logic4_title" >4. 警报状态判断</string >
+    <string name = "help_logic4_desc" >在警戒状态下，如果接下来连续 30 帧的画面同样被判断为不健康坐姿，App
+        会进入警报状态。
+    </string >
+    <string name = "help_logic5_title" >5. 状态恢复</string >
+    <string name = "help_logic5_desc" >当检测到健康坐姿时，App 会恢复正常状态。</string >
+    <string name = "help_usage" >使用方法</string >
+    <string name = "icon_usage" >使用</string >
+    <string name = "help_usage1_title" >1. 授权 App 使用摄像头的权限</string >
+    <string name = "help_usage1_desc" >首次使用时需要授予摄像头权限，这是检测坐姿的必要条件。</string >
+    <string name = "help_usage2_title" >2. 将手机竖直摆放到座位上的人的侧方</string >
+    <string name = "help_usage2_desc" >离人 1~1.5m 的距离，离地 0.5~1m 的高度。</string >
+    <string name = "help_usage3_title" >3. 进入主页即可自动开始监测坐姿</string >
+    <string name = "help_usage3_desc" >画面中是完整的座位上的人的侧面时，检测结果才有效。</string >
+    <string name = "help_usage4_title" >4. 统计页可以查看从这次打开 App 起的坐姿情况统计</string >
+    <string name = "help_usage4_desc" >统计信息包括良好坐姿、不健康坐姿的持续时间。</string >
+    <string name = "help_copyright" >版权信息</string >
+    <string name = "icon_copyright" >版权</string >
+    
+    <!-- 检测状态字符串 -->
+    <string name = "detection_normal" >正常</string >
+    <string name = "warning_state" >警告</string >
+    <string name = "alert_state" >警报</string >
+    
+    <!-- 图标描述 -->
+    <string name = "icon_help" >帮助</string >
+    
+    <!-- 评价字符串 -->
+    <string name = "excellent_evaluation" >优秀：继续保持良好习惯！</string >
+    <string name = "good_evaluation" >良好：再努力一点就能达到优秀！</string >
+    <string name = "average_evaluation" >一般：注意坐姿，避免长时间不良姿势</string >
+    <string name = "poor_evaluation" >较差：建议定时休息，调整坐姿</string >
+    
+    <!-- 帮助页面额外字符串 -->
+    <string name = "help_logic" >工作逻辑</string >
+    <string name = "icon_logic" >工作逻辑</string >
+    <string name = "help_linyi_project" >linyiLYi/pose-monitor</string >
+    <string name = "help_linyi_url" >https://github.com/linyiLYi/pose-monitor</string >
+    <string name = "help_tensorflow_project" >tensorflow/examples</string >
+    <string name = "help_tensorflow_url" >
+        https://github.com/tensorflow/examples/blob/master/lite/examples/pose_estimation
+    </string >
+    
+    <!-- 主页硬编码字符串 -->
+    <string name = "no_person_hint" >未检测到人，请确保在摄像头范围内</string >
+    <string name = "good_posture_hint" >坐姿良好，请继续保持</string >
+    <string name = "bad_posture_hint" >检测到不健康坐姿，请调整姿势</string >
+    
+    <!-- 统计页面图标描述 -->
+    <string name = "icon_cross_leg" >跷二郎腿</string >
+    <string name = "icon_hunchback" >脖子前伸</string >
+    <string name = "icon_no_person" >未检测到人</string >
+    <string name = "icon_total_session" >总会话时长</string >
+</resources >

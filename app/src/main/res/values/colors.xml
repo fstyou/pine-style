@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources >
+    <!-- 主题颜色 -->
+    <color name = "primary" >#4CAF50</color >
+    <color name = "primary_dark" >#388E3C</color >
+    <color name = "accent" >#FF9800</color >
+    
+    <!-- 文本颜色 -->
+    
+    <!-- 背景颜色 -->
+    <color name = "background" >#FAFAFA</color >
+    
+    <!-- 坐姿状态颜色 -->
+    
+    <!-- 原有颜色保留 -->
+</resources >
