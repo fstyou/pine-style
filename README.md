@@ -1,4 +1,4 @@
-# 青松 - AI 坐姿检测
+# 青松（Pine Style）- AI 坐姿检测
 
 一款基于 Android 平台的 AI 坐姿检测应用。  
 通过 AI 模型 [MoveNet](https://www.tensorflow.org/hub/tutorials/movenet) 检测用户坐姿情况，并提供坐姿状态显示和坐姿数据统计。
