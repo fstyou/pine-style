@@ -1,7 +1,7 @@
 # 青松 - AI 坐姿检测
 
 一款基于 Android 平台的 AI 坐姿检测应用。  
-通过 AI 模型检测用户坐姿情况，并提供坐姿状态显示和坐姿数据统计。
+通过 AI 模型 [MoveNet](https://www.tensorflow.org/hub/tutorials/movenet) 检测用户坐姿情况，并提供坐姿状态显示和坐姿数据统计。
 
 ## 背景
 
@@ -52,9 +52,9 @@ Android 10 以上的 arm64-v8a 设备即可。
 
 ## 致谢
 
-本项目的 AI 部分基于以下开源项目改造：
+本项目的 AI 部分由以下开源项目改造而来：
 
-- [PoseMon](https://github.com/linyiLYi/pose-monitor)
-- [TensorFlow Examples](https://github.com/tensorflow/examples)
+- 分类网络：[PoseMon](https://github.com/linyiLYi/pose-monitor)
+- 代码：[TensorFlow Examples](https://github.com/tensorflow/examples/blob/master/lite/examples/pose_estimation)
 
 感谢各位程序工作者对开源社区的贡献。
