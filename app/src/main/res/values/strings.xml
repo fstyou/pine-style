@@ -36,17 +36,8 @@
     <string name = "nav_settings" >设置</string >
     
     <!-- 评价提示 -->
-    <string name = "tip_excellent" >继续保持良好习惯！</string >
-    <string name = "tip_good" >再努力一点就能达到优秀！</string >
-    <string name = "tip_average" >注意坐姿，避免长时间不良姿势</string >
-    <string name = "tip_poor" >建议定时休息，调整坐姿</string >
-    <string name = "tip_default" >坚持检测，改善坐姿习惯</string >
     
     <!-- 评价等级 -->
-    <string name = "evaluation_excellent" >优秀</string >
-    <string name = "evaluation_good" >良好</string >
-    <string name = "evaluation_average" >一般</string >
-    <string name = "evaluation_poor" >较差</string >
     
     <!-- 主页相关 -->
     <string name = "current_posture" >当前坐姿</string >
