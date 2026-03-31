@@ -35,10 +35,6 @@
     <string name = "nav_stats" >统计</string >
     <string name = "nav_settings" >设置</string >
     
-    <!-- 评价提示 -->
-    
-    <!-- 评价等级 -->
-    
     <!-- 主页相关 -->
     <string name = "current_posture" >当前坐姿</string >
     
