@@ -84,10 +84,10 @@
     <string name = "device_settings" >运算设备</string >
     <string name = "device_cpu" >CPU</string >
     <string name = "device_gpu" >GPU</string >
-    <string name = "device_nnapi" >NNAPI (AI加速器)</string >
-    <string name = "device_description_cpu" >使用CPU进行计算，兼容性最好</string >
-    <string name = "device_description_gpu" >使用GPU进行计算，速度较快</string >
-    <string name = "device_description_nnapi" >使用NNAPI进行计算，速度最快且最省电</string >
+    <string name = "device_nnapi" >NNAPI</string >
+    <string name = "device_description_cpu" >使用 CPU 进行计算，兼容性最好</string >
+    <string name = "device_description_gpu" >使用 GPU 进行计算，速度较快</string >
+    <string name = "device_description_nnapi" >使用 NNAPI 进行计算，速度最快且最省电</string >
     
     <!-- 更多图标描述 -->
     <string name = "icon_camera_settings" >摄像头设置</string >
@@ -101,7 +101,7 @@
     <string name = "help_title" >帮助</string >
     <string name = "nav_help" >帮助</string >
     <string name = "license_info" >本 App 使用 GPL-3.0 协议。</string >
-    <string name = "ai_source_info" >App 中的 AI 部分修改自以下项目：</string >
+    <string name = "ai_source_info" >App 中的 AI 部分由以下开源项目改造而来：</string >
     <string name = "license_apache_info" >这两个项目均采用 Apache-2.0 协议。</string >
     
     <!-- 统计页面 -->
@@ -111,7 +111,7 @@
     <string name = "cross_leg_posture" >跷二郎腿</string >
     <string name = "hunchback_posture" >脖子前伸</string >
     <string name = "no_person_time" >无人时长</string >
-    <string name = "total_session_time" >总会话时长</string >
+    <string name = "total_session_time" >App 打开时长</string >
     <string name = "stats_note" >非实时检测结果</string >
     <string name = "detailed_stats" >详细统计数据</string >
     <string name = "detection_time_note" >总检测时长不包括未检测到人的时间</string >
@@ -137,9 +137,9 @@
     <string name = "help_logic1_title" >1. 摄像头画面获取</string >
     <string name = "help_logic1_desc" >App 调用摄像头实时获取画面，所有处理都在设备本地完成。</string >
     <string name = "help_logic2_title" >2. AI 模型检测</string >
-    <string name = "help_logic2_desc" >通过本地 AI 模型分析画面中的坐姿情况，无需联网。</string >
-    <string name = "help_logic3_title" >3. 警戒状态判断</string >
-    <string name = "help_logic3_desc" >AI 将连续 30 帧的画面判断为不健康坐姿时，App 会进入警戒状态。</string >
+    <string name = "help_logic2_desc" >通过本地 AI 模型 MoveNet 分析画面中的坐姿情况，无需联网。</string >
+    <string name = "help_logic3_title" >3. 警告状态判断</string >
+    <string name = "help_logic3_desc" >AI 将连续 30 帧的画面判断为不健康坐姿时，App 会进入警告状态。</string >
     <string name = "help_logic4_title" >4. 警报状态判断</string >
     <string name = "help_logic4_desc" >在警戒状态下，如果接下来连续 30 帧的画面同样被判断为不健康坐姿，App
         会进入警报状态。
@@ -153,9 +153,9 @@
     <string name = "help_usage2_title" >2. 将手机竖直摆放到座位上的人的侧方</string >
     <string name = "help_usage2_desc" >离人 1~1.5m 的距离，离地 0.5~1m 的高度。</string >
     <string name = "help_usage3_title" >3. 进入主页即可自动开始监测坐姿</string >
-    <string name = "help_usage3_desc" >画面中是完整的座位上的人的侧面时，检测结果才有效。</string >
-    <string name = "help_usage4_title" >4. 统计页可以查看从这次打开 App 起的坐姿情况统计</string >
-    <string name = "help_usage4_desc" >统计信息包括良好坐姿、不健康坐姿的持续时间。</string >
+    <string name = "help_usage3_desc" >画面中是完整的座位上的人的侧面时，检测结果才准确。</string >
+    <string name = "help_usage4_title" >4. 在统计页查看坐姿情况统计</string >
+    <string name = "help_usage4_desc" >统计从这次打开 App 起的良好坐姿、不健康坐姿的持续时间。</string >
     <string name = "help_copyright" >版权信息</string >
     <string name = "icon_copyright" >版权</string >
     
@@ -176,9 +176,9 @@
     <!-- 帮助页面额外字符串 -->
     <string name = "help_logic" >工作逻辑</string >
     <string name = "icon_logic" >工作逻辑</string >
-    <string name = "help_linyi_project" >linyiLYi/pose-monitor</string >
+    <string name = "help_linyi_project" >分类网络：linyiLYi/pose-monitor</string >
     <string name = "help_linyi_url" >https://github.com/linyiLYi/pose-monitor</string >
-    <string name = "help_tensorflow_project" >tensorflow/examples</string >
+    <string name = "help_tensorflow_project" >代码：tensorflow/examples</string >
     <string name = "help_tensorflow_url" >
         https://github.com/tensorflow/examples/blob/master/lite/examples/pose_estimation
     </string >
