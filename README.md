@@ -1,3 +1,4 @@
+**本项目全部在 Opencode + Deepseek 中生成，是许愿式编程的产物。**
 # 青松（Pine Style）- AI 坐姿检测
 
 一款基于 Android 平台的 AI 坐姿检测应用。  
